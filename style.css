@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+
+}
+*::before,::after{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: serif;
+  font-weight: 400;
+}
+
+img{
+  max-width: 100%;
+}
+.list-reset{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.btn-reset{
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.hero{
+  background-image: url("../JS1/heroimg/mountain-range-appenzell-switzerland_16x9.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
